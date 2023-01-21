@@ -1,0 +1,31 @@
+{
+  "name": "luish",
+  "displayName": "cyberzion-theme",
+  "description": "Tema dark no estilo cyberpunk 🦾🤓",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "keywords": [
+    "theme",
+    "cyber",
+    "dark-purple"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/7uishenrique/theme_cyberzion"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "cyberzion-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberzion-theme-color.json"
+      }
+    ]
+  }
+}
